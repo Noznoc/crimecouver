@@ -1,42 +1,98 @@
 #legend {
-  height: 100%;
+  height: 130px;
   color: white;
-  background-color: rgba(160, 35, 35, 0.3);
-  width: 200px;
+  border-bottom: 1px solid #2a262c;
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 100%;
   text-align: center; }
+  #legend .filters {
+    padding: 10px; }
+  #legend form {
+    display: inline-block; }
+  #legend .filter-container {
+    display: inline-block;
+    padding: 0px 20px; }
+    #legend .filter-container label {
+      display: block;
+      padding: 0px;
+      color: #2a262c;
+      padding-bottom: 5px; }
   #legend select {
     width: 150px; }
-  #legend button, #legend select {
-    background-color: rgba(160, 35, 35, 0);
+  #legend button, #legend select, #legend input {
+    background-color: #2a262c;
     border: 1px solid white;
     font-size: 15px;
     color: white;
     width: 150px;
     height: 35px;
-    border-radius: 50px;
     padding: 5px;
-    margin-top: 30px; }
-  #legend button {
-    text-align: center; }
-    #legend button:hover {
-      background-color: rgba(160, 35, 35, 0.6);
-      color: white;
+    margin-bottom: 10px; }
+  #legend button, #legend input {
+    text-align: center;
+    border-radius: 5px; }
+    #legend button:hover, #legend input:hover {
+      background-color: #2a262c;
       cursor: pointer; }
-  #legend #legend-choropleth {
-    background: rgba(255, 255, 255, 0.5);
-    display: none; }
-    #legend #legend-choropleth .txt-s {
-      text-align: left;
-      padding-left: 10px; }
+  #legend .button-active {
+    background-color: #2a262c; }
   #legend #stats {
-    padding: 20px; }
+    color: #2a262c; }
 
 .popup {
   text-align: center;
-  color: #191a1a;
-  padding: 10px; }
+  color: #272726;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold; }
 
 .mapboxgl-popup-close-button {
   padding: 5px; }
+
+#legend-choropleth {
+  display: block;
+  padding: 10px;
+  margin-top: 200px;
+  margin-left: 20px; }
+  #legend-choropleth #stats-choropleth {
+    margin-top: 10px; }
+  #legend-choropleth h2, #legend-choropleth p {
+    padding-bottom: 5px; }
+  #legend-choropleth .txt-s {
+    text-align: left;
+    padding-left: 10px; }
+
+.legend {
+  background-color: white;
+  border: 1px solid #2a262c;
+  color: #2a262c; }
+
+#toggle {
+  margin-top: 150px;
+  margin-left: 20px;
+  position: absolute; }
+
+.toggle {
+  color: #2a262c; }
+  .toggle:hover {
+    color: rgba(251, 128, 114, 0.7); }
+
+input:checked + .toggle {
+  background-color: rgba(251, 128, 114, 0.7); }
+
+a#data {
+  margin-bottom: 8px;
+  margin-left: 100px;
+  color: #2a262c; }
+  a#data:hover {
+    text-decoration: underline;
+    cursor: pointer; }
+
+.popup {
+  background-color: #FC9D94;
+  color: white; }
+
+.popup-triangle {
+  color: #FC9D94; }
 
 /*# sourceMappingURL=index.css.map */
