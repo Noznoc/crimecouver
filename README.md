@@ -1,8 +1,8 @@
 # Visualization of Crime Data in Vancouver
 
-To learn react, I decided to visualize the [City of Vancouver's crime data](http://data.vancouver.ca/datacatalogue/crime-data.htm) (2003-2016) using Mapbox GL JS and react. Code closely follows [Mapbox's react examples](https://github.com/mapbox/mapbox-react-examples).
+To learn react, I decided to visualize the [City of Vancouver's crime data](http://data.vancouver.ca/datacatalogue/crime-data.htm) (2003-2016) using Mapbox GL JS and react. Code closely follows [Mapbox's react examples](https://github.com/mapbox/mapbox-react-examples). This is ongoing, so more functionalities + data will be added over time.
 
-![Image of Visualization](crimecouver.png)
+![Image of Visualization](crimecouver.gif)
 
 ### Download
 
